@@ -1,21 +1,87 @@
-<ui version="4.0" >
- <author></author>
- <comment></comment>
- <exportmacro></exportmacro>
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>Form</class>
- <widget class="QWidget" name="Form" >
-  <property name="geometry" >
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>1457</width>
+    <height>934</height>
    </rect>
   </property>
-  <property name="windowTitle" >
-   <string>Form</string>
+  <property name="windowTitle">
+   <string>vffuzz</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">font: 11pt &quot;ModeSeven&quot;;
+background-color: rgb(106, 9, 158);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>vuln function</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QListWidget" name="listWidget">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(196, 112, 255);
+font: 75 11pt &quot;FreeMono&quot;;
+border-color: rgb(65, 5, 98);
+selection-color: rgb(65, 5, 98);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(196, 112, 255);
+border-color: rgb(65, 5, 98);
+selection-color: rgb(65, 5, 98);</string>
+         </property>
+         <property name="placeholderText">
+          <string>total</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>tasty gadgets</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QListWidget" name="listWidget_2">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(196, 112, 255);
+font: 75 11pt &quot;FreeMono&quot;;
+border-color: rgb(65, 5, 98);
+selection-color: rgb(65, 5, 98);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(196, 112, 255);
+border-color: rgb(65, 5, 98);
+selection-color: rgb(65, 5, 98);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
  </widget>
- <pixmapfunction></pixmapfunction>
+ <resources/>
  <connections/>
 </ui>

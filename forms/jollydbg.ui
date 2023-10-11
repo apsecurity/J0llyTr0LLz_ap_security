@@ -1,21 +1,144 @@
-<ui version="4.0" >
- <author></author>
- <comment></comment>
- <exportmacro></exportmacro>
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>Form</class>
- <widget class="QWidget" name="Form" >
-  <property name="geometry" >
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>1424</width>
+    <height>807</height>
    </rect>
   </property>
-  <property name="windowTitle" >
-   <string>Form</string>
+  <property name="windowTitle">
+   <string>J0llyDBG</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">font: 11pt &quot;ModeSeven&quot;;
+background-color: rgb(106, 9, 158);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(196, 112, 255);
+border-color: rgb(65, 5, 98);
+selection-color: rgb(65, 5, 98);</string>
+     </property>
+     <property name="text">
+      <string>J0llyDBG</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_15">
+      <attribute name="title">
+       <string>all</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QListWidget" name="listWidget">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(196, 112, 255);
+font: 75 11pt &quot;FreeMono&quot;;
+border-color: rgb(65, 5, 98);
+selection-color: rgb(65, 5, 98);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_17">
+      <attribute name="title">
+       <string>graph</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QTextEdit" name="textEdit">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(196, 112, 255);
+font: 75 11pt &quot;FreeMono&quot;;
+border-color: rgb(65, 5, 98);
+selection-color: rgb(65, 5, 98);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_16">
+      <attribute name="title">
+       <string>function</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="1" column="0">
+        <widget class="QListWidget" name="listWidget_2">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(196, 112, 255);
+font: 75 11pt &quot;FreeMono&quot;;
+border-color: rgb(65, 5, 98);
+selection-color: rgb(65, 5, 98);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(196, 112, 255);
+border-color: rgb(65, 5, 98);
+selection-color: rgb(65, 5, 98);</string>
+         </property>
+         <property name="placeholderText">
+          <string>address...</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>strings</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QListWidget" name="listWidget_3">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(196, 112, 255);
+font: 75 11pt &quot;FreeMono&quot;;
+border-color: rgb(65, 5, 98);
+selection-color: rgb(65, 5, 98);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+  <action name="actionAdress">
+   <property name="text">
+    <string>adress</string>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </action>
  </widget>
- <pixmapfunction></pixmapfunction>
+ <resources/>
  <connections/>
 </ui>

@@ -8,3 +8,8 @@ pip install hashlib
 pip install zlib-state
 pip install python-magic
 pip install jsonlib
+pip install capstone
+pip install r2pipe
+
+# objdump
+# r2
